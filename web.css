@@ -1,0 +1,245 @@
+body{
+    background-image: url(fotos/fondo2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav{
+    background: rgb(240,230,140);
+    background: linear-gradient(90deg, rgba(240,230,140,1) 0%, rgba(168,150,71,1) 50%, rgba(184,134,11,1) 100%);
+    margin-top: 15px;
+}
+
+.boton{
+    background-color: white;
+    width: max-content;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: burlywood;
+}
+
+nav div{
+    display: inline-block;
+    padding: 20px;
+    width: 24%;
+    color: white;
+    text-align: center;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:visited{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+aside{
+    background-color: khaki;
+    color: black;
+    float: left;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    border: 3px black solid;
+}
+
+.lista{
+    text-align: left;
+}
+
+main{
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+hr{
+    border: 2px solid;
+    color: khaki;
+}
+
+.características{
+    column-count: 3;
+    width: 1200px;
+    height: 190px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+    padding: 5px;
+    border: 3px blue solid;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+article{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+p{
+    word-wrap: break-word;
+    display: table-row;
+    color: black;
+}
+
+.aside2{
+    background-color: khaki;
+    color: black;
+    float: right;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 0px;
+    border: 3px black solid;
+}
+
+h3{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titulo2{
+    text-align: center;
+}
+
+img.gimnasio{
+    width: 220px;
+    border: 3px white solid;
+    margin-right: 300px;
+}
+
+.articulo2{
+    margin-right: 300px;
+}
+
+img.ufc{
+    width: 150px;
+    border: 3px white solid;
+}
+
+h2{
+    font-size: 35px;
+}
+
+img.aplicacion{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+
+.articulo4{
+    margin-right: 300px;
+}
+
+footer{
+    font-weight: bold;
+    clear: both;
+    background-color: khaki;
+    text-align: center;
+    padding: 10px;
+}
+
+img.imagen{
+    margin-top: 50px;
+    width: 160px;
+    border: 3px black solid;
+    margin-left: 20px;
+}
+
+.section2{
+    float: right;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-right: 50px;
+    margin-top: 60px;
+}
+
+.estudiante{
+    text-decoration: none;
+    text-align: left;
+}
+
+.telefono{
+    list-style-image: url(fotos/Icono_telefono_compressed_resized\ \(3\).png);
+    text-align: left;
+}
+
+.correo{
+    list-style-image: url(fotos/95645_resized.png);
+    text-align: left;
+}
+.pais{
+    list-style-image: url(fotos/619_resized.png);
+    text-align: left;
+}
+
+.main2{
+    background-color: blanchedalmond;
+    border: 3px black solid;
+    margin-top: 40px;
+    color: black;
+    float: left;
+    width: 1100px;
+}
+
+.información{
+    float: right;
+    margin-top: 50px;
+}
+
+.perfil{
+    float: left;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.sobre-mí{
+    background-color: darkgrey;
+}
+
+.párrafo1{
+    float: left;
+}
+
+.formación{
+    float: left;
+}
