@@ -35,7 +35,7 @@ nav {
 }
 
 .boton:hover {
-    background-color: burlywood;
+    background-color: dodgerblue;
 }
 
 nav div {
@@ -81,7 +81,7 @@ aside {
 main {
     float: left;
     margin-left: 40px;
-    margin-top: 5px;
+    margin-top: 5;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -102,7 +102,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: blanchedalmond;
-    padding: 5px;
+    padding: 5;
     border: 3px blue solid;
     text-align: center;
     color: black;
@@ -243,4 +243,12 @@ img.imagen {
 
 .formación {
     float: left;
+}
+
+fieldset{
+    background-color: cornsilk;
+    color: black;
+    border: 3px black solid;
+    border-radius: 10px;
+    font-size: 5px;
 }
