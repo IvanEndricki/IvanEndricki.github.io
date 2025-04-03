@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(fotos/fondo2.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
 }
 
-.header1{
+.header1 {
     font-size: 50px;
     text-align: center;
     color: white;
@@ -15,13 +15,13 @@ body{
     font-weight: bold;
 }
 
-nav{
-    background: rgb(240,230,140);
-    background: linear-gradient(90deg, rgba(240,230,140,1) 0%, rgba(168,150,71,1) 50%, rgba(184,134,11,1) 100%);
+nav {
+    background: rgb(240, 230, 140);
+    background: linear-gradient(90deg, rgba(240, 230, 140, 1) 0%, rgba(189, 183, 107, 1) 50%, rgba(191, 191, 108, 1) 100%);
     margin-top: 15px;
 }
 
-.boton{
+.boton {
     background-color: white;
     width: max-content;
     border-radius: 15px;
@@ -34,11 +34,11 @@ nav{
     text-decoration: none;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: burlywood;
 }
 
-nav div{
+nav div {
     display: inline-block;
     padding: 20px;
     width: 24%;
@@ -46,24 +46,24 @@ nav div{
     text-align: center;
 }
 
-a{
+a {
     outline: none;
     text-decoration: none;
 }
 
-a:link{
+a:link {
     color: black;
     font-weight: bold;
     font-style: italic;
 }
 
-a:visited{
+a:visited {
     color: black;
     font-weight: bold;
     font-style: italic;
 }
 
-aside{
+aside {
     background-color: khaki;
     color: black;
     float: left;
@@ -74,11 +74,11 @@ aside{
     border: 3px black solid;
 }
 
-.lista{
+.lista {
     text-align: left;
 }
 
-main{
+main {
     float: left;
     margin-left: 40px;
     margin-top: 5px;
@@ -89,12 +89,12 @@ main{
     font-size: 30px;
 }
 
-hr{
+hr {
     border: 2px solid;
     color: khaki;
 }
 
-.características{
+.características {
     column-count: 3;
     width: 1200px;
     height: 190px;
@@ -109,18 +109,18 @@ hr{
     font-size: 20px;
 }
 
-article{
+article {
     display: inline-block;
     margin-left: 50px;
 }
 
-p{
+p {
     word-wrap: break-word;
     display: table-row;
     color: black;
 }
 
-.aside2{
+.aside2 {
     background-color: khaki;
     color: black;
     float: right;
@@ -132,45 +132,45 @@ p{
     border: 3px black solid;
 }
 
-h3{
+h3 {
     font-weight: bold;
     text-decoration: underline;
 }
 
-.titulo2{
+.titulo2 {
     text-align: center;
 }
 
-img.gimnasio{
+img.gimnasio {
     width: 220px;
     border: 3px white solid;
     margin-right: 300px;
 }
 
-.articulo2{
+.articulo2 {
     margin-right: 300px;
 }
 
-img.ufc{
+img.ufc {
     width: 150px;
     border: 3px white solid;
 }
 
-h2{
+h2 {
     font-size: 35px;
 }
 
-img.aplicacion{
+img.aplicacion {
     width: 150px;
     border-radius: 50px;
     margin-top: 0px;
 }
 
-.articulo4{
+.articulo4 {
     margin-right: 300px;
 }
 
-footer{
+footer {
     font-weight: bold;
     clear: both;
     background-color: khaki;
@@ -178,14 +178,14 @@ footer{
     padding: 10px;
 }
 
-img.imagen{
+img.imagen {
     margin-top: 50px;
     width: 160px;
     border: 3px black solid;
     margin-left: 20px;
 }
 
-.section2{
+.section2 {
     float: right;
     margin-left: 120px;
     margin-top: 20px;
@@ -193,26 +193,27 @@ img.imagen{
     margin-top: 60px;
 }
 
-.estudiante{
+.estudiante {
     text-decoration: none;
     text-align: left;
 }
 
-.telefono{
+.telefono {
     list-style-image: url(fotos/Icono_telefono_compressed_resized\ \(3\).png);
     text-align: left;
 }
 
-.correo{
+.correo {
     list-style-image: url(fotos/95645_resized.png);
     text-align: left;
 }
-.pais{
+
+.pais {
     list-style-image: url(fotos/619_resized.png);
     text-align: left;
 }
 
-.main2{
+.main2 {
     background-color: blanchedalmond;
     border: 3px black solid;
     margin-top: 40px;
@@ -221,25 +222,25 @@ img.imagen{
     width: 1100px;
 }
 
-.información{
+.información {
     float: right;
     margin-top: 50px;
 }
 
-.perfil{
+.perfil {
     float: left;
     text-decoration: underline;
     margin-bottom: 15px;
 }
 
-.sobre-mí{
+.sobre-mí {
     background-color: darkgrey;
 }
 
-.párrafo1{
+.párrafo1 {
     float: left;
 }
 
-.formación{
+.formación {
     float: left;
 }
