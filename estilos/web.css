@@ -251,4 +251,14 @@ fieldset{
     border: 3px black solid;
     border-radius: 10px;
     font-size: 20px;
+    width: 900px;
+    float: left;
+    text-align: left;
+}
+
+.fieldset2{
+    background-color: cornsilk;
+    color: black;
+    border: 3px black solid;
+    width: 200px;
 }
