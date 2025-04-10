@@ -199,17 +199,17 @@ img.imagen {
 }
 
 .telefono {
-    list-style-image: url(fotos/Icono_telefono_compressed_resized\ \(3\).png);
+    list-style-image: url(../fotos/Icono_telefono_compressed_resized\ \(3\).png);
     text-align: left;
 }
 
 .correo {
-    list-style-image: url(fotos/95645_resized.png);
+    list-style-image: url(../fotos/95645_resized.png);
     text-align: left;
 }
 
 .pais {
-    list-style-image: url(fotos/619_resized.png);
+    list-style-image: url(../fotos/619_resized.png);
     text-align: left;
 }
 
@@ -252,13 +252,9 @@ fieldset{
     border-radius: 10px;
     font-size: 20px;
     width: 900px;
-    float: left;
     text-align: left;
 }
 
 .fieldset2{
-    background-color: cornsilk;
-    color: black;
-    border: 3px black solid;
-    width: 200px;
+    
 }
