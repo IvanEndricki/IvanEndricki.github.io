@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="estilos/web.css">
+    <script>
+        function procesarFormulario(event) {
+            event.preventDefault();
+            alert('Formulario enviado');
+        }
+    </script>
 </head>
 
 <body>
@@ -105,7 +111,7 @@
 
     <main>
         <h2>Rellena este formulario:</h2>
-        <form action="formulario">
+        <form action="formulario" onsubmit="procesarFormulario(event)">
             <fieldset>
                 <legend>
                     <h2>Datos para registrarte</h2>
@@ -157,7 +163,7 @@
                 <br>
                 <label for="estado_civil">Estado civil:</label>
                 <select name="estado_civil" id="estado_civil">
-                    <option value="1">...</option>
+                    <option value="1">Selecciona una opción</option>
                     <option value="2">Soltero/a</option>
                     <option value="3">Casado/a</option>
                     <option value="4">Viudo/a</option>
@@ -172,23 +178,51 @@
             </fieldset>
             <fieldset>
                 <legend>
-                    <h2>Datos para registrarte</h2>
+                    <h2>Datos académicos</h2>
                 </legend>
-                <label for="nombre_usuario">Nombre de usuario:</label>
-                <input type="text" name="nombre_usuario" placeholder="Nombre de usuario">
+                <label for="titulos_obtenidos">Títulos obtenidos</label>
+                <select name="titulos_obtenidos" id="titulos_obtenidos">
+                    <option value="1">Selecciona una opción</option>
+                    <option value="2">ESO / EGB</option>
+                    <option value="3">Bachillerato</option>
+                    <option value="4">FP Grado Medio</option>
+                    <option value="5">FP Grado Superior</option>
+                    <option value="6">Título universitario</option>
+                    <option value="7">Otros</option>
+                </select>
                 <br>
                 <br>
-                <label for="correo_electrónico">Correo electrónico:</label>
-                <input type="mail" name="correo_electrónico" placeholder="Correo electrónico">
+                <label>Idiomas:</label>
+                <input type="checkbox" name="idioma_ingles"><label for="idioma_ingles">Inglés</label>
+                <input type="checkbox" name="idioma_alemán"><label for="idioma_alemán">Alemán</label>
+                <input type="checkbox" name="idioma_francés"><label for="idioma_francés">Francés</label>
+                <input type="checkbox" name="idioma_chino"><label for="idioma_chino">Chino</label>
+                <input type="checkbox" name="idioma_catalán"><label for="idioma_catalán">Catalán</label>
+                <input type="checkbox" name="otro_idioma"><label for="otro_idioma">Otro idioma:</label>
+                <input type="text" name="otro_idioma" placeholder="Escriba aquí el idoma">
                 <br>
                 <br>
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="contraseña" placeholder="Escriba su correo electrónico">
+                <label for="nivel_inglés">Nivel de Inglés (A1-A2-B1-B2-C1-C2):</label>
+                <input type="range" name="nivel_inglés" min="1" max="6" list="nivel_inglés">
+                <datalist id="nivel_inglés">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                </datalist>
                 <br>
                 <br>
-                <label for="confirmar_contraseña">Confirmar contraseña:</label>
-                <input type="password" name="confirmar_contraseña" placeholder="Confirme su contraseña">
+                <label for="cualidades">Pon unas breves cualidades sobre tí</label>
+                <br>
+                <textarea name="cualidades" rows="5" cols="40"
+                    placeholder="Rellena este recuadro con tus cualidades"></textarea>
             </fieldset>
+            <label for="enviar_formulario"></label>
+            <input type="submit" value="Enviar">
+            <label for="reiniciar_formulario"></label>
+            <input type="reset" name="reiniciar_formulario">
         </form>
     </main>
 </body>

@@ -152,7 +152,7 @@ img.gimnasio {
 }
 
 img.ufc {
-    width: 150px;
+    width: 270px;
     border: 3px white solid;
 }
 
@@ -193,11 +193,6 @@ img.imagen {
     margin-top: 60px;
 }
 
-.estudiante {
-    text-decoration: none;
-    text-align: left;
-}
-
 .telefono {
     list-style-image: url(../fotos/Icono_telefono_compressed_resized\ \(3\).png);
     text-align: left;
@@ -219,7 +214,7 @@ img.imagen {
     margin-top: 40px;
     color: black;
     float: left;
-    width: 1100px;
+    width: 1190px;
 }
 
 .información {
@@ -231,10 +226,6 @@ img.imagen {
     float: left;
     text-decoration: underline;
     margin-bottom: 15px;
-}
-
-.sobre-mí {
-    background-color: darkgrey;
 }
 
 .párrafo1 {
@@ -254,3 +245,47 @@ fieldset{
     width: 900px;
     text-align: left;
 }
+
+.encabezado{
+    background-color: khaki;
+    height: 230px;
+}
+
+.yo{
+    float: left;
+    padding-left: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sobre-mí{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.estudiante{
+    float: left;
+    padding-left: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.educación{
+    float: left;
+    padding-left: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.estudios{
+    text-align: left;
+    margin-right: 100px;
+}
+
+.fecha_eso{
+    text-align: left;
+}
+
