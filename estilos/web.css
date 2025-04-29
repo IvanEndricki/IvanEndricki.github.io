@@ -267,14 +267,15 @@ fieldset{
 
 .estudiante{
     float: left;
-    padding-left: 25px;
+    margin-left: 25px;
     margin-top: 15px;
     text-decoration: none;
 }
 
 .educación{
     float: left;
-    padding-left: 25px;
+    margin-left: 25px;
+    margin-right: 30px;
     text-decoration: underline;
     font-style: italic;
     margin-top: 10px;
@@ -282,10 +283,45 @@ fieldset{
 
 .estudios{
     text-align: left;
-    margin-right: 100px;
+    margin-left: 25px;
+    font-size: 30px;
+    margin-top: 20px;
 }
 
-.fecha_eso{
+.proyectos{
+    float: left;
+    margin-left: 25px;
+    margin-right: 30px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.proyecto_academico{
     text-align: left;
+    margin-left: 25px;
+    font-size: 30px;
 }
 
+.nav_currículum{
+    background: blue;
+    background: linear-gradient(90deg, rgba(18, 82, 225, 1) 0%, rgba(13, 58, 158, 1) 50%, rgba(9, 41, 112, 1) 100%);
+    margin-top: 15px;
+}
+
+.boton_currículum{
+    background-color: white;
+    width: max-content;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.boton_currículum:hover{
+    background-color: #c0c0c0;
+}
