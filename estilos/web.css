@@ -16,7 +16,6 @@ body {
 }
 
 nav {
-    background: rgb(240, 230, 140);
     background: linear-gradient(90deg, rgba(240, 230, 140, 1) 0%, rgba(189, 183, 107, 1) 50%, rgba(191, 191, 108, 1) 100%);
     margin-top: 15px;
 }
@@ -63,7 +62,7 @@ a:visited {
     font-style: italic;
 }
 
-aside {
+.aside1 {
     background-color: khaki;
     color: black;
     float: left;
@@ -170,17 +169,17 @@ img.aplicacion {
     margin-right: 300px;
 }
 
-footer {
+.footer_index {
     font-weight: bold;
     clear: both;
-    background-color: khaki;
+    background: linear-gradient(90deg, rgba(240, 230, 140, 1) 0%, rgba(189, 183, 107, 1) 50%, rgba(191, 191, 108, 1) 100%);
     text-align: center;
     padding: 10px;
 }
 
 img.imagen {
     margin-top: 50px;
-    width: 160px;
+    width: 110px;
     border: 3px black solid;
     margin-left: 20px;
 }
@@ -302,7 +301,6 @@ fieldset {
 }
 
 .nav_currículum {
-    background: blue;
     background: linear-gradient(90deg, rgba(18, 82, 225, 1) 0%, rgba(13, 58, 158, 1) 50%, rgba(9, 41, 112, 1) 100%);
     margin-top: 15px;
 }
@@ -327,8 +325,12 @@ fieldset {
 .aside3 {
     background-color: blue;
     color: white;
-    border: solid 3px white;
-    font-weight: bold;
+    float: left;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    border: 3px white solid;
 }
 
 .aside4 {
@@ -341,20 +343,23 @@ fieldset {
     text-align: center;
     margin-right: 0px;
     border: 3px white solid;
-    font-weight: bold;
 }
 
 .nav_formulario {
-    background: red;
-    background: linear-gradient(90deg,rgba(244, 67, 54, 1) 0%, rgba(239, 53, 48, 1) 50%, rgba(183, 28, 28, 1) 100%);
+    background: linear-gradient(90deg, rgba(244, 67, 54, 1) 0%, rgba(239, 53, 48, 1) 50%, rgba(183, 28, 28, 1) 100%);
     margin-top: 15px;
 }
 
 .aside5 {
     background-color: red;
     color: white;
-    border: solid 3px white;
-    font-weight: bold;
+    float: left;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    border: 3px white solid;
+
 }
 
 .aside6 {
@@ -367,10 +372,9 @@ fieldset {
     text-align: center;
     margin-right: 0px;
     border: 3px white solid;
-    font-weight: bold;
 }
 
-.boton_formulario{
+.boton_formulario {
     background-color: white;
     width: max-content;
     border-radius: 15px;
@@ -383,35 +387,87 @@ fieldset {
     text-decoration: none;
 }
 
-.boton_formulario:hover{
+.boton_formulario:hover {
     background-color: gold;
 }
 
-.aside7{
-    background-color: green;
-    color: white;
-    border: solid 3px white;
-    font-weight: bold;
-}
-
-.foto_layout{
+.foto_layout {
     width: 700px;
     height: 700px;
 }
 
-.documentación{
+.documentación {
     font-size: 25px;
 }
 
-.layout{
+.layout {
     background-color: grey;
     width: 1195px;
-    border: 3px solid black;
+    border: 3px solid white;
     margin-top: 40px;
     border-radius: 10px;
 }
 
-.h2_layout{
+.h2_layout {
     color: black;
     font-weight: bold;
+}
+
+.footer_currículum {
+    font-weight: bold;
+    clear: both;
+    background: linear-gradient(90deg, rgba(18, 82, 225, 1) 0%, rgba(13, 58, 158, 1) 50%, rgba(9, 41, 112, 1) 100%);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.footer_formulario {
+    font-weight: bold;
+    clear: both;
+    background: linear-gradient(90deg, rgba(244, 67, 54, 1) 0%, rgba(239, 53, 48, 1) 50%, rgba(183, 28, 28, 1) 100%);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.nav_proyecto {
+    background: linear-gradient(90deg, rgba(198, 198, 198, 1) 0%, rgba(130, 130, 130, 1) 50%, rgba(94, 94, 94, 1) 100%);
+    margin-top: 15px;
+}
+
+.footer_proyecto {
+    font-weight: bold;
+    clear: both;
+    background: linear-gradient(90deg, rgba(198, 198, 198, 1) 0%, rgba(130, 130, 130, 1) 50%, rgba(94, 94, 94, 1) 100%);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.aside7{
+    background-color: gray;
+    color: white;
+    float: left;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    border: 3px white solid;
+}
+
+.aside8{
+    background-color: gray;
+    color: white;
+    float: right;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 0px;
+    border: 3px white solid;
+}
+
+img{
+    width: 170px;
 }
