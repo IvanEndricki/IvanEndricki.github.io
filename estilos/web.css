@@ -235,8 +235,8 @@ img.imagen {
     float: left;
 }
 
-fieldset{
-    background-color: cornsilk;
+fieldset {
+    background-color: #ff5252;
     color: black;
     border: 3px black solid;
     border-radius: 10px;
@@ -245,13 +245,13 @@ fieldset{
     text-align: left;
 }
 
-.encabezado{
+.encabezado {
     background-color: #5564eb;
     height: 230px;
     color: white;
 }
 
-.yo{
+.yo {
     float: left;
     padding-left: 25px;
     text-decoration: underline;
@@ -260,19 +260,19 @@ fieldset{
     margin-bottom: 20px;
 }
 
-.sobre-mí{
+.sobre-mí {
     margin-bottom: 15px;
     text-align: left;
 }
 
-.estudiante{
+.estudiante {
     float: left;
     margin-left: 25px;
     margin-top: 15px;
     text-decoration: none;
 }
 
-.educación{
+.educación {
     float: left;
     margin-left: 25px;
     text-decoration: underline;
@@ -280,14 +280,14 @@ fieldset{
     margin-top: 10px;
 }
 
-.estudios{
+.estudios {
     text-align: left;
     margin-left: 25px;
     font-size: 30px;
     margin-top: 20px;
 }
 
-.proyectos{
+.proyectos {
     float: left;
     margin-left: 25px;
     text-decoration: underline;
@@ -295,19 +295,19 @@ fieldset{
     margin-top: 10px;
 }
 
-.proyecto_academico{
+.proyecto_academico {
     text-align: left;
     margin-left: 25px;
     font-size: 30px;
 }
 
-.nav_currículum{
+.nav_currículum {
     background: blue;
     background: linear-gradient(90deg, rgba(18, 82, 225, 1) 0%, rgba(13, 58, 158, 1) 50%, rgba(9, 41, 112, 1) 100%);
     margin-top: 15px;
 }
 
-.boton_currículum{
+.boton_currículum {
     background-color: white;
     width: max-content;
     border-radius: 15px;
@@ -320,17 +320,18 @@ fieldset{
     text-decoration: none;
 }
 
-.boton_currículum:hover{
+.boton_currículum:hover {
     background-color: #c0c0c0;
 }
 
-.aside3{
+.aside3 {
     background-color: blue;
     color: white;
     border: solid 3px white;
+    font-weight: bold;
 }
 
-.aside4{
+.aside4 {
     background-color: blue;
     color: white;
     float: right;
@@ -340,4 +341,77 @@ fieldset{
     text-align: center;
     margin-right: 0px;
     border: 3px white solid;
+    font-weight: bold;
+}
+
+.nav_formulario {
+    background: red;
+    background: linear-gradient(90deg,rgba(244, 67, 54, 1) 0%, rgba(239, 53, 48, 1) 50%, rgba(183, 28, 28, 1) 100%);
+    margin-top: 15px;
+}
+
+.aside5 {
+    background-color: red;
+    color: white;
+    border: solid 3px white;
+    font-weight: bold;
+}
+
+.aside6 {
+    background-color: red;
+    color: white;
+    float: right;
+    width: 300px;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 0px;
+    border: 3px white solid;
+    font-weight: bold;
+}
+
+.boton_formulario{
+    background-color: white;
+    width: max-content;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.boton_formulario:hover{
+    background-color: gold;
+}
+
+.aside7{
+    background-color: green;
+    color: white;
+    border: solid 3px white;
+    font-weight: bold;
+}
+
+.foto_layout{
+    width: 700px;
+    height: 700px;
+}
+
+.documentación{
+    font-size: 25px;
+}
+
+.layout{
+    background-color: grey;
+    width: 1195px;
+    border: 3px solid black;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.h2_layout{
+    color: black;
+    font-weight: bold;
 }
